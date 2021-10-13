@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wendy chat]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="LoginTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="logout"/>
+          <include name="loginSide"/>
+          <include name="openPage"/>
+          <include name="loginUpper"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="SendMailTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.SendMailTest">
+        <methods>
+          <include name="checkLetter"/>
+          <include name="openPage"/>
+          <include name="sendLetter"/>
+        </methods>
+      </class> <!-- tests.SendMailTest -->
+    </classes>
+  </test> <!-- SendMailTest(failed) -->
+  <test thread-count="5" name="NoteTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.TestNote">
+        <methods>
+          <include name="checkNote"/>
+          <include name="openPage"/>
+        </methods>
+      </class> <!-- tests.TestNote -->
+    </classes>
+  </test> <!-- NoteTest(failed) -->
+  <test thread-count="5" name="UploadPhotoTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.UploadPhotoTest">
+        <methods>
+          <include name="checkUploadPhoto"/>
+          <include name="openPage"/>
+        </methods>
+      </class> <!-- tests.UploadPhotoTest -->
+    </classes>
+  </test> <!-- UploadPhotoTest(failed) -->
+</suite> <!-- Failed suite [Wendy chat] -->

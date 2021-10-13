@@ -1,0 +1,5 @@
+pages\IncorrectLoginPassword.class
+tests\ErrorLoginTest.class
+tests\TestRunner.class
+tests\ConfigurationIUA.class
+pages\MainPage.class

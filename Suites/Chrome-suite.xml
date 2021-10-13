@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Wendy chat">
+    <test name="ErrorTest">
+        <classes>
+            <class name="tests.ErrorLoginTest"/>
+        </classes>
+    </test>
+</suite>
